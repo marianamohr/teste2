@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.use('/teste',(req, res, next) => {
+app.use('/certificados',(req, res, next) => {
     res.status(200).send({
         certificados: {
             "id": 1,
