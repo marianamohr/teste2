@@ -17,8 +17,8 @@ app.use('/certificados', (req, res, next) => {
             },
             {
                 "id": 2,
-                "username": "joaos", //obrigatório e único, permitindo caracteres `a-z` e `0-9` e máximo de caracteres deve ser 30
-                "name": "João da Silva", //obrigatório e máximo de caracteres deve ser 255
+                "username": "marias", //obrigatório e único, permitindo caracteres `a-z` e `0-9` e máximo de caracteres deve ser 30
+                "name": "Maria da Silva", //obrigatório e máximo de caracteres deve ser 255
                 "description": "",
                 "groups": [15],
                 "expiration": 10, //representa o número de dias que o certificado é valido, o número deve estar entre 10 e 3650.
